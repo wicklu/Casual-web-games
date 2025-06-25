@@ -3,14 +3,10 @@ import { notFound } from "next/navigation";
 import GamePageClient from "@/components/GamePageClient";
 import type { Metadata } from "next";
 
-// ✅ 正确写法：避免结构写法，确保类型推导稳定
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
-
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+// ✅ 不定义额外类型，直接写参数结构（关键修复点）
+export async function generateMetadata(
+  { params }: { params: { id: string } }
+): Promise<Metadata> {
   const game = getGameById(params.id);
   if (!game) {
     return {
@@ -36,7 +32,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default function GamePage({ params }: PageProps) {
+// ✅ 同样不要使用 PageProps 类型别名
+export default function GamePage({
+  params,
+}: {
+  params: { id: string };
+}) {
   const game = getGameById(params.id);
   if (!game) notFound();
   return <GamePageClient game={game} />;
