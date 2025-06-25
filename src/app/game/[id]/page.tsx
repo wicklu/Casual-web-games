@@ -3,11 +3,14 @@ import { notFound } from "next/navigation";
 import GamePageClient from "@/components/GamePageClient";
 import type { Metadata } from "next";
 
-// ✅ 不定义额外类型，直接写参数结构（关键修复点）
+// ✅ 修复：params 现在是 Promise 类型
 export async function generateMetadata(
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ): Promise<Metadata> {
-  const game = getGameById(params.id);
+  // ✅ 需要 await params
+  const resolvedParams = await params;
+  const game = getGameById(resolvedParams.id);
+  
   if (!game) {
     return {
       title: "Game Not Found",
@@ -32,13 +35,16 @@ export async function generateMetadata(
   };
 }
 
-// ✅ 同样不要使用 PageProps 类型别名
-export default function GamePage({
+// ✅ 修复：params 现在是 Promise 类型
+export default async function GamePage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const game = getGameById(params.id);
+  // ✅ 需要 await params
+  const resolvedParams = await params;
+  const game = getGameById(resolvedParams.id);
+  
   if (!game) notFound();
   return <GamePageClient game={game} />;
 }
