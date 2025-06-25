@@ -3,8 +3,11 @@
 import { getGameById } from "@/lib/games";
 import { notFound } from "next/navigation";
 import GamePageClient from "@/components/GamePageClient";
+import { Metadata } from "next";
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata(
+  { params }: { params: { id: string } }
+): Promise<Metadata> {
   const game = getGameById(params.id);
   if (!game) {
     return {
@@ -12,6 +15,7 @@ export async function generateMetadata({ params }) {
       description: "The game you're looking for does not exist.",
     };
   }
+
   return {
     title: `${game.title} | Play Free Web Game`,
     description: game.description,
