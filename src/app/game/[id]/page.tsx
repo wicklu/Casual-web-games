@@ -1,14 +1,13 @@
-// ✅ 文件：src/app/game/[id]/page.tsx（服务器组件）
-
+import { Metadata } from "next";
 import { getGameById } from "@/lib/games";
 import { notFound } from "next/navigation";
 import GamePageClient from "@/components/GamePageClient";
-import { Metadata } from "next";
 
+// ✅ 正确的 generateMetadata 类型签名
 export async function generateMetadata(
-  { params }: { params: { id: string } }
+  props: { params: { id: string } }
 ): Promise<Metadata> {
-  const game = getGameById(params.id);
+  const game = getGameById(props.params.id);
   if (!game) {
     return {
       title: "Game Not Found",
@@ -33,8 +32,9 @@ export async function generateMetadata(
   };
 }
 
-export default function GamePage({ params }: { params: { id: string } }) {
-  const game = getGameById(params.id);
+// ✅ 同样修正页面组件的参数类型
+export default function GamePage(props: { params: { id: string } }) {
+  const game = getGameById(props.params.id);
   if (!game) notFound();
   return <GamePageClient game={game} />;
 }
