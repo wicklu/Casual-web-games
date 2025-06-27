@@ -33,7 +33,7 @@ export const heroGames: Game[] = [
     badge: "TOP RATED",
     category: "Adventure",
     description: "Jump into the viral madness of Tung Tung Sahur: Obby Challenge — a hilarious meme-based platformer where you dodge traps, jump across chaos, and try to survive with style",
-    gameUrl: "https://html5.gamedistribution.com/ad14e488375b4e41af52a4617f6837d0/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/tung-tung-sahur-obby-challenge",
+    gameUrl: "https://html5.gamedistribution.com/5663a7467cf441d9b4604a890ed0f1ed/?gd_sdk_referrer_url=https://gamedistribution.com/games/tung-tung-sahur:-obby-challenge/",
     rating: 4.8,
     plays: 1800000,
     tags: ["Adventure", "relaxing", "jumping", "3d"]
@@ -45,7 +45,7 @@ export const heroGames: Game[] = [
     badge: "TOP RATED",
     category: "Action",
     description: "Strykon is a mobile FPS game with exciting missions and battles. Play different modes like Deathmatch, Team Deathmatch, and Free-for-All, where your goal is to survive.",
-    gameUrl: "https://html5.gamedistribution.com/59361631a2614fc095ef2a1740e02d78/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/strykon",
+    gameUrl: "https://html5.gamedistribution.com/59361631a2614fc095ef2a1740e02d78/?gd_sdk_referrer_url=https://gamedistribution.com/games/strykon/",
     rating: 4.7,
     plays: 3200000,
     tags: ["action", "fps", "shotting", "physics"]
@@ -57,7 +57,7 @@ export const heroGames: Game[] = [
     badge: "UPDATED",
     category: "Driving",
     description: "In this exciting game, you will take on the role of an experienced stuntman, performing daring stunts on your motorcycle at different levels.",
-    gameUrl: "https://html5.gamedistribution.com/5b0abd4c0faa4f5eb190a9a16d5a1b4c/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/moto-x3m-bike-race",
+    gameUrl: "https://html5.gamedistribution.com/5b0abd4c0faa4f5eb190a9a16d5a1b4c/?gd_sdk_referrer_url=https://gamedistribution.com/games/moto-x3m-bike-race-game/",
     rating: 4.4,
     plays: 1500000,
     tags: ["driving", "relaxing", "motorbike", "satisfying"]
@@ -106,7 +106,7 @@ export const featuredGames: Game[] = [
     badge: "HOT",
     category: "RPG",
     description: "Are you ready to build your dream business empire and be a great babysitter in this money tycoon simulator ? Dive into the world of daycare games and experience the joy of managing your own thriving idle tycoon games.",
-    gameUrl: "https://html5.gamedistribution.com/d9f930a985ba4d2fb94100f6daeee6b8/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/dayCare-tycoon",
+    gameUrl: "https://html5.gamedistribution.com/d9f930a985ba4d2fb94100f6daeee6b8/?gd_sdk_referrer_url=https://gamedistribution.com/games/daycare-tycoon/",
     rating: 4.4,
     plays: 2200000,
     tags: ["RPG", "arcade", "blocks", "classic"]
@@ -114,14 +114,13 @@ export const featuredGames: Game[] = [
   {
     id: "only-up-parkour",
     title: "Only Up Parkour",
-    image: "https://www.onlinegames.io/media/posts/615/responsive/Only-Up-Parkour-lg.jpg",
+    image: "https://img.gamedistribution.com/ffea96f2185746d395668e20b18cf2ea-512x384.jpg",
     category: "Sports",
     description: "An unknown disaster happened with bizarre consequences in Only Up Parkour game. Boxes, pipes, containers, cars, and even houses hang in the air after the apocalypse. An adventure in the skies awaits the only person who can solve the mystery of what happened. But she needs to climb to the top to reach this holy duty. Combine your parkour gaming skills with your character's agility. Then, you will be able to see things much more clearly from above.",
-    gameUrl: "https://html5.gamedistribution.com/c7a11f86eeda4a2b88e8d5ad2ba2f41d/?gd_sdk_referrer_url=https://www.onlinegames.io/only-up-parkour",
+    gameUrl: "https://html5.gamedistribution.com/ffea96f2185746d395668e20b18cf2ea/?gd_sdk_referrer_url=https://gamedistribution.com/games/only-up-parkour/",
     rating: 4.3,
     plays: 1100000,
-    tags: ["adventure", "rhythm", "imagination", "3D"],
-    operation:["Shift: fast run","T:teleport"]
+    tags: ["adventure", "rhythm", "imagination", "arcade"],
   },
   {
     id: "draw-the-bridge",
@@ -197,7 +196,7 @@ export const featuredGames: Game[] = [
     image: "https://img.gamedistribution.com/17e7c212747b426890b8b040d13b7fa3-512x384.jpg",
     category: "Casual",
     description: "Hit & Knock Down is a fun casual game where you aim to throw baseballs. Shoot as many targets as possible. Test your precision, reaction speed, and throwing skills. You aim to hit the right targets in each level.",
-    gameUrl: "https://html5.gamedistribution.com/17e7c212747b426890b8b040d13b7fa3/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/hit-knock-down",
+    gameUrl: "https://html5.gamedistribution.com/17e7c212747b426890b8b040d13b7fa3/?gd_sdk_referrer_url=https://gamedistribution.com/games/hit-knock-down/",
     rating: 4.9,
     plays: 3200000,
     tags: ["baseballs", "Shooting", "relaxing", "strategy"]
@@ -215,7 +214,7 @@ export const actionGames: Game[] = [
     badge: "HOT",
     category: "Action",
     description: "Grand Vegas Crime is an open-world action game set in a sprawling city inspired by Las Vegas. Players take on the role of a daring gangster looking to rise through the criminal underworld. The game offers intense missions, thrilling car chases, and fierce shootouts against rival gangs and law enforcement.",
-    gameUrl: "https://html5.gamedistribution.com/828864726be944c2bff67fa68d505e96/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/gta-grand-vegas-crime",
+    gameUrl: "https://html5.gamedistribution.com/828864726be944c2bff67fa68d505e96/?gd_sdk_referrer_url=https://gamedistribution.com/games/gta:-grand-vegas-crime/",
     rating: 4.5,
     plays: 3800000,
     tags: ["action", "crime", "tactical", "adventure"],
@@ -250,15 +249,15 @@ export const actionGames: Game[] = [
   {
     id: "stick-fighter-3D",
     title: "Stick Fighter 3D",
-    image: "https://img.gamedistribution.com/3e34d62652d048b682de66117da5d84d-512x384.jpg",
+    image: "https://img.gamedistribution.com/7c4103dbf8ee4ded981b15bbcdb22e8f-512x384.jpeg",
     badge: "UPDATED",
     category: "Action",
     description: "Real Street Fighter 3D have very addictive game-play and many missions. In this you have to fight with other enemies and have to complete mission. It has many addictive missions.",
-    gameUrl: "https://html5.gamedistribution.com/3e34d62652d048b682de66117da5d84d/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/stick-fighter-3D",
+    gameUrl: "https://html5.gamedistribution.com/7c4103dbf8ee4ded981b15bbcdb22e8f/?gd_sdk_referrer_url=https://gamedistribution.com/games/stick-fighter-3d/",
     rating: 4.6,
     plays: 2900000,
     tags: ["action", "adventure", "fight", "zombies"],
-    operation:["X:punch","Z:kick","C:grab"]
+    operation:["F:punch","G:kick","R:Special"]
   },
   {
     id: "strike-force-action-platformer",
@@ -267,7 +266,7 @@ export const actionGames: Game[] = [
     badge: "UPDATED",
     category: "Action",
     description: "a high-octane, side-scrolling action shooter inspired by the legendary Contra series. Fight through thrilling levels packed with non-stop combat, deadly enemies, and intense boss battles. ",
-    gameUrl: "https://html5.gamedistribution.com/30c319848d544c30afbe82ad24fbac5b/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/strike-force-action-platformer",
+    gameUrl: "https://html5.gamedistribution.com/30c319848d544c30afbe82ad24fbac5b/?gd_sdk_referrer_url=https://gamedistribution.com/games/contraa:-war-mayhem/",
     rating: 4.6,
     plays: 2900000,
     tags: ["action", "adventure", "shooting", "Contra"],
@@ -285,7 +284,7 @@ export const puzzleGames: Game[] = [
     badge: "TOP RATED",
     category: "Puzzle",
     description: "Test your skill and logic with Klondike, the classic solitaire game loved by generations! Stack the cards in ascending order, alternating colors, and complete all four suits to win the game.",
-    gameUrl: "https://html5.gamedistribution.com/673aec14f9ca48fb89efa3ea00befc8d/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/klondike-solitaire",
+    gameUrl: "https://html5.gamedistribution.com/673aec14f9ca48fb89efa3ea00befc8d/?gd_sdk_referrer_url=https://gamedistribution.com/games/klondike-solitaire-5/",
     rating: 4.7,
     plays: 2400000,
     tags: ["puzzle", "cards", "logic", "brain"]
@@ -296,7 +295,7 @@ export const puzzleGames: Game[] = [
     image: "https://img.gamedistribution.com/365b4962c5894454ac7ac9e75ea0fb69-512x384.jpg",
     category: "Puzzle",
     description: "an immersive word game that takes players on an extraordinary journey through the world of letters. Featuring vibrant floral backgrounds and tranquil gameplay, this online crossword adventure is the ideal companion for warm days ahead! With thousands of levels to conquer, you're guaranteed endless brain-teasing enjoyment. ",
-    gameUrl: "https://html5.gamedistribution.com/365b4962c5894454ac7ac9e75ea0fb69/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/bubble-letters",
+    gameUrl: "https://html5.gamedistribution.com/365b4962c5894454ac7ac9e75ea0fb69/?gd_sdk_referrer_url=https://gamedistribution.com/games/bubble-letters/",
     rating: 4.4,
     plays: 1800000,
     tags: ["puzzle", "bubble", "letters", "satisfying"]
@@ -308,7 +307,7 @@ export const puzzleGames: Game[] = [
     badge: "UPDATED",
     category: "Puzzle",
     description: "Power up your logic and spatial reasoning skills with Unblock It 3D! Rotate the cluster of bricks to find unblocked tiles you can slide away without hitting any obstructions. Play Classic Mode and enjoy hundreds of intricate puzzles with unlimited moves, new cube designs and backgrounds to unlock.",
-    gameUrl: "https://html5.gamedistribution.com/bb321f67a2fc481ba31308582f3df0d5/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/unblock-it-3D",
+    gameUrl: "https://html5.gamedistribution.com/bb321f67a2fc481ba31308582f3df0d5/?gd_sdk_referrer_url=https://gamedistribution.com/games/unblock-it-3d/",
     rating: 4.3,
     plays: 1200000,
     tags: ["puzzle", "Unblock", "spce", "logic"]
@@ -336,7 +335,7 @@ export const sportsGames: Game[] = [
     badge: "HOT",
     category: "Sports",
     description: "Snow Rush 3D is a fun sledding game that tests speed and reflexes for winter sports enthusiasts, playable in both 1 and 2 players!",
-    gameUrl: "https://html5.gamedistribution.com/e1e32230bdf040d69f4e367015e1c527/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/snow-rush-3D",
+    gameUrl: "https://html5.gamedistribution.com/e1e32230bdf040d69f4e367015e1c527/?gd_sdk_referrer_url=https://gamedistribution.com/games/snow-rush-3d/",
     rating: 4.6,
     plays: 4200000,
     tags: ["sports", "snow-rush", "competition", "skills"]
@@ -370,11 +369,11 @@ export const sportsGames: Game[] = [
   {
     id: "golf-orbit",
     title: "Golf Orbit",
-    image: "https://www.onlinegames.io/media/posts/953/responsive/Golf-Orbit-Play-Online-lg.jpg",
+    image: "https://img.gamedistribution.com/02ff01e6e9f7451ba28d889a2a55eec9-512x384.jpg",
     badge: "TOP RATED",
     category: "Sports",
     description: "Golf Orbit is an online golf game where one powerful shot can send your ball flying across the course and even into outer space! With just a single tap, you can launch the ball as far as possible, collect coins, and upgrade your golfer’s abilities. The goal is to hit the ball farther with each shot. ",
-    gameUrl: "https://html5.gamedistribution.com/02ff01e6e9f7451ba28d889a2a55eec9/?gd_sdk_referrer_url=https://www.onlinegames.io/golf-orbit/",
+    gameUrl: "https://html5.gamedistribution.com/02ff01e6e9f7451ba28d889a2a55eec9/?gd_sdk_referrer_url=https://gamedistribution.com/games/golf-orbit/",
     rating: 4.8,
     plays: 2800000,
     tags: ["sports", "golf", "orbit", "physics"]
@@ -405,7 +404,7 @@ export const adventureGames: Game[] = [
     badge: "UPDATED",
     category: "Adventure",
     description: "Hordes of zombies are swarming the streets. You are the last line of defense. Grab your gun, sharpen your shooting skills, and unleash unstoppable firepower to survive. ",
-    gameUrl: "https://html5.gamedistribution.com/505a6808388d4967a82e141f956bcc13/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/zombie-shooting-king",
+    gameUrl: "https://html5.gamedistribution.com/505a6808388d4967a82e141f956bcc13/?gd_sdk_referrer_url=https://gamedistribution.com/games/zombie-shooting-king/",
     rating: 4.6,
     plays: 2900000,
     tags: ["adventure", "shooting", "zombies","survival"]
@@ -429,7 +428,7 @@ export const adventureGames: Game[] = [
     badge: "UPDATED",
     category: "Adventure",
     description: "a fast-paced and addictive game inspired by the classic playground challenge! Test your reflexes, strategy, and timing as you race against others to reach the finish line without getting caught.",
-    gameUrl: "https://html5.gamedistribution.com/788f89d325d840f391139ce0e1212c46/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/squid-game",
+    gameUrl: "https://html5.gamedistribution.com/788f89d325d840f391139ce0e1212c46/?gd_sdk_referrer_url=https://gamedistribution.com/games/red-light-green-light-2/",
     rating: 4.6,
     plays: 2900000,
     tags: ["adventure", "adventure", "reflexes", "Squid Game"]
@@ -441,7 +440,7 @@ export const adventureGames: Game[] = [
     badge: "UPDATED",
     category: "Adventure",
     description: "Gold Miner Tower Defense is a wonderful combination of tower defense, card strategy and upgrade combat. You will play as a brave miner protecting gold from enemies. Protect your precious treasures strategically with many unique defense towers!",
-    gameUrl: "https://html5.gamedistribution.com/cf920379795a402dac13aad70d2c556d/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/gold-miner-tower-defense",
+    gameUrl: "https://html5.gamedistribution.com/cf920379795a402dac13aad70d2c556d/?gd_sdk_referrer_url=https://gamedistribution.com/games/gold-miner-tower-defense/",
     rating: 4.6,
     plays: 2900000,
     tags: ["adventure", "tower-defense", "reflexes", "casual"]
@@ -456,7 +455,7 @@ export const casualGames : Game[]= [
     badge: "TOP RATED" as const,
     category: "Casual",
     description: "Place triangles and blocks to build 2x2 BIG BLOCKS! Drag and drop shapes into the grid to complete full squares made of triangles. Matching colors gives you bonus points, so in Big Block Blast you must aim for smart and colorful combos! Some blocks have special powers and can even be placed on top of others.",
-    gameUrl:"https://html5.gamedistribution.com/058a3fd0d58949be9b79e666de9ac36d/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/big-block-blast",
+    gameUrl:"https://html5.gamedistribution.com/058a3fd0d58949be9b79e666de9ac36d/?gd_sdk_referrer_url=https://gamedistribution.com/games/big-block-blast/",
     rating: 4.8,
     plays: 1800000,
     tags: ["casual", "relaxing", "build", "blocks"]
@@ -476,10 +475,10 @@ export const casualGames : Game[]= [
   {
     id: "fireboy-and-watergirl",
     title: "Fireboy and Watergirl",
-    image: "https://www.onlinegames.io/media/posts/377/responsive/Fireboy-and-Watergirl-Online-lg.jpg",
+    image: "https://img.gamedistribution.com/a55c9cc9c21e4fc683c8c6857f3d0c75-512x384.jpeg",
     category: "Casual",
     description: " We want to introduce you two best friends that can never be together: Fireboy and Watergirl. Fireboy is hydrophobic and can only pass through flames. Watergirl loves to be wet and evaporate when she touches fire.",
-    gameUrl: "https://html5.gamedistribution.com/a55c9cc9c21e4fc683c8c6857f3d0c75/?gd_sdk_referrer_url=https://www.onlinegames.io/fireboy-and-watergirl",
+    gameUrl: "https://html5.gamedistribution.com/a55c9cc9c21e4fc683c8c6857f3d0c75/?gd_sdk_referrer_url=https://gamedistribution.com/games/fireboy-and-watergirl-1-forest-temple/",
     rating: 4.4,
     plays: 1500000,
     tags: ["casual", "arcade", "2 player", "satisfying"]
@@ -542,7 +541,7 @@ export const drivingGames = [
     image: "https://img.gamedistribution.com/d632553ef7264d99aa438310073a6dc3-512x384.jpg",
     category: "Driving",
     description: "Hit the Streets & Dominate the Race! Jump into heart-pounding street racing action! Collect and customize high-performance cars, master intense drifts, unleash nitro boosts, and conquer challenging races. Prove your skills and become the ultimate street-racing legend! Ready, Set, Drift!",
-    gameUrl: "https://html5.gamedistribution.com/d632553ef7264d99aa438310073a6dc3/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/nsr-street-car-racing",
+    gameUrl: "https://html5.gamedistribution.com/d632553ef7264d99aa438310073a6dc3/?gd_sdk_referrer_url=https://gamedistribution.com/games/nsr-street-car-racing/",
     rating: 4.4,
     plays: 1900000,
     tags: ["driving", "car", "drift", "nitro"]
@@ -562,10 +561,10 @@ export const drivingGames = [
   {
     id: "crazy-plane-landing",
     title: "Crazy Plane Landing",
-    image: "https://www.onlinegames.io/media/posts/999/responsive/crazy-plane-landing-lg.jpg",
+    image: "https://img.gamedistribution.com/fd8ad948b534420caced19c62764019f-1280x720.jpg",
     category: "Driving",
     description: "Crazy Plane Landing is a 3D stunt flight game where you launch a plane off a ramp, try to keep it in one piece and land on the runway. Until you arrive at the finish, every barrel roll, every extra meter adds to your payout. Spend those coins on a beefier Engine, a longer Boost, or a bigger Bonus multiplier, then keep chasing that distant finish line on different terrains.",
-    gameUrl: "https://html5.gamedistribution.com/fd8ad948b534420caced19c62764019f/?gd_sdk_referrer_url=https://www.onlinegames.io/crazy-plane-landing/",
+    gameUrl: "https://html5.gamedistribution.com/fd8ad948b534420caced19c62764019f/?gd_sdk_referrer_url=https://gamedistribution.com/games/crazy-plane-landing/",
     rating: 4.4,
     plays: 1900000,
     tags: ["driving", "plane", "launch", "landing"],
@@ -576,7 +575,7 @@ export const drivingGames = [
     image: "https://img.gamedistribution.com/8f2eacba36514c4bbfd532fb4fc82120-512x384.jpeg",
     category: "Driving",
     description: "You are sailing to the ocean with the top supersport speed boats with the Speed Boat Extreme Race game! The game comes with five different speed boats and six different racing maps and a huge free drive and stunt map. The game is both played as single and two-player.",
-    gameUrl: "https://html5.gamedistribution.com/8f2eacba36514c4bbfd532fb4fc82120/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/speed-boat-extreme-racing",
+    gameUrl: "https://html5.gamedistribution.com/8f2eacba36514c4bbfd532fb4fc82120/?gd_sdk_referrer_url=https://gamedistribution.com/games/speed-boat-extreme-racing/",
     rating: 4.8,
     plays: 3600000,
     tags: ["driving", "boat", "speed", "physics"],
