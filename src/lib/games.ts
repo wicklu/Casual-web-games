@@ -574,7 +574,6 @@ export const drivingGames = [
     id: "speed-boat-extreme-racing",
     title: "Speed Boat Extreme Racing",
     image: "https://img.gamedistribution.com/8f2eacba36514c4bbfd532fb4fc82120-512x384.jpeg",
-    badge: "TOP RATED",
     category: "Driving",
     description: "You are sailing to the ocean with the top supersport speed boats with the Speed Boat Extreme Race game! The game comes with five different speed boats and six different racing maps and a huge free drive and stunt map. The game is both played as single and two-player.",
     gameUrl: "https://html5.gamedistribution.com/8f2eacba36514c4bbfd532fb4fc82120/?gd_sdk_referrer_url=https://www.casualwebgames.xyz/game/speed-boat-extreme-racing",
