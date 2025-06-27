@@ -21,12 +21,12 @@ export default function HomePage() {
                 <span className="text-2xl">🎮</span>
               </div>
               <div>
-                <h1 className="text-xl lg:text-2xl font-bold">Welcome to CasualGames</h1>
+                <h1 className="text-xl lg:text-2xl font-bold">Welcome to CasualWebGames</h1>
                 <div className="flex flex-wrap gap-2 lg:gap-4 text-xs lg:text-sm mt-2">
                   <span>🎯 100+ games personally tested and played</span>
                   <span>✨ All for free</span>
-                  <span>⚡ No install needed</span>
-                  <span>💡 No login needed</span>
+                  <span>⚡ No install</span>
+                  <span>💡 No signup</span>
                   <span>📱 On any device</span>
                   <span>👥 Play with friends</span>
                 </div>

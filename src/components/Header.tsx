@@ -35,7 +35,7 @@ export function Header() {
               <Menu className="w-6 h-6" />
             </button>
 
-            <div className="flex items-center gap-2">
+            {/*<div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-[#4658c1] rounded-full flex items-center justify-center">
                 <span className="text-white font-bold text-sm">CG</span>
               </div>
@@ -43,7 +43,15 @@ export function Header() {
                 <span className="text-white font-bold text-lg leading-none">casual</span>
                 <span className="text-white font-bold text-lg leading-none">games</span>
               </div>
+            </div>*/}
+          <div className="flex items-center gap-2">
+           <img src="/favicon.ico" alt="casual web games logo" className="w-16 h-16 object-contain" />
+           <div className="flex flex-col">
+                <span className="text-white font-bold text-lg leading-none">casual</span>
+                <span className="text-white font-bold text-lg leading-none">games</span>
             </div>
+          </div>
+
           </div>
 
           {/* Center - Search bar (Desktop) */}
